@@ -905,10 +905,6 @@ file = "config/yacl.json5"
 hash = "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820"
 
 [[files]]
-file = "export/StarterName-v1.0.1-curse.zip"
-hash = "5ace433f86d2b1c047dacc61523813e974f289e5385e3822ea4dd2bf8111fe56"
-
-[[files]]
 file = "import-mods.sh"
 hash = "cd94267467bc6d8169982c457b28898da5801d3ecdbb70939b78139e588b6979"
 
@@ -1032,7 +1028,7 @@ metafile = true
 
 [[files]]
 file = "mods/cardinal-components-api.pw.toml"
-hash = "e948385136e0f372f4a8b35f04221b4cc5e3786ce498fc321a394ad1258dc032"
+hash = "9489e84fa1b95dfaed50d12d01094b6c424124d8153a36303c06b6581d72899f"
 metafile = true
 
 [[files]]
@@ -1212,12 +1208,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabricquilt-chunk-pregenerator.pw.toml"
-hash = "f61f8969f37446c9b4323ff9052c1c6cfff0608fb7b5de7bbba830d35d4033ec"
+hash = "b1d9dc6d9100ca046dec8cd03d3193957a6106c34074c4dd5f0db1789f24f9b9"
 metafile = true
 
 [[files]]
 file = "mods/fallingtree.pw.toml"
-hash = "9603820d581a491036461500b9bf463ec82f8dc00d4c80813e5da84ce43e8a50"
+hash = "c3855a5011cc263726532999f35c8691db9fa60b9d470758dd826d25c29ed4cb"
 metafile = true
 
 [[files]]
@@ -1247,7 +1243,7 @@ metafile = true
 
 [[files]]
 file = "mods/flan.pw.toml"
-hash = "fe9cdf76882a7fdbe2259b6c8eac78624c8417e5a3ea000868611e78fcf2eab3"
+hash = "08d34b24a2a509dc1531158d515db088127c450d6b3ebe9dfcd2751a422ce0b9"
 metafile = true
 
 [[files]]
@@ -1437,7 +1433,7 @@ metafile = true
 
 [[files]]
 file = "mods/noisium.pw.toml"
-hash = "e94cfc8b72a467d63c5d7593a433edaf698a3792e0c9b95274751ba6d8435288"
+hash = "f4b9d7acc345b8df6dd13e19b36658cbca476abdee703ee6f38c66d33e8fa763"
 metafile = true
 
 [[files]]
@@ -1583,6 +1579,11 @@ metafile = true
 [[files]]
 file = "mods/worldedit.pw.toml"
 hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
+metafile = true
+
+[[files]]
+file = "mods/worldeditcui-fabric.pw.toml"
+hash = "48c5a8213925efd652a9e13f40116d53e0516e9147b27d6d0e0ae8cf68f83f6d"
 metafile = true
 
 [[files]]

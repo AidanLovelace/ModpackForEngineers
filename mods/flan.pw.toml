@@ -1,6 +1,6 @@
 name = "Flan"
 filename = "flan-1.20.1-1.10.8-fabric.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Si383TIH/versions/dXY1ucXJ/flan-1.20.1-1.10.8-fabric.jar"

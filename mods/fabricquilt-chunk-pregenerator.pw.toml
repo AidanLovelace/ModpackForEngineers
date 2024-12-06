@@ -1,6 +1,6 @@
 name = "Fabric/Quilt Chunk Pregenerator"
 filename = "fabric-chunkpregen-0.3.7.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/AsjPpia1/versions/dDZVCrf6/fabric-chunkpregen-0.3.7.jar"
