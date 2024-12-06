@@ -3,11 +3,11 @@ filename = "techreborn-player-ability-lib-compat-0.0.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "20ebb13cb45154f7b6636ab31c7a7acc73a36ebf"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/tdpYbREv/versions/K6vte4ZE/techreborn-player-ability-lib-compat-0.0.2.jar"
+hash-format = "sha512"
+hash = "9c9e1f7cffdd345bbc968c67e60970d455f2e6c6f9415c25a09435e63eef4f267d5bc3caebad971b44a1e3049f379bcb5c39962be71a78f3232cbe7511e5566c"
 
 [update]
-[update.curseforge]
-file-id = 5275410
-project-id = 1005560
+[update.modrinth]
+mod-id = "tdpYbREv"
+version = "K6vte4ZE"

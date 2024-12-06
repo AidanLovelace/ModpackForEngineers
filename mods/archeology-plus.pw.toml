@@ -3,11 +3,11 @@ filename = "archeologyplus-2.0.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "685a1070df8d7f633f3693b8011e24005057c6a6"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/xJ3jwmS6/versions/ZpdU7hIq/archeologyplus-2.0.0.jar"
+hash-format = "sha512"
+hash = "b011d6d156531868b80e50c4949e93bcbe54ecb3c0c5b3c17946f90210c05bed0ea435d26db7c13465423ed1d569fc99fa338029d6fca996f787f29362f3531e"
 
 [update]
-[update.curseforge]
-file-id = 4769066
-project-id = 870762
+[update.modrinth]
+mod-id = "xJ3jwmS6"
+version = "ZpdU7hIq"

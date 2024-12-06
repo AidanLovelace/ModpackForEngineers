@@ -3,11 +3,11 @@ filename = "adapaxels-1.5.1+1.20.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a6384114ae918b908495877d994a72b248fe420e"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/H6g6MTOB/versions/7xaicc4Q/adapaxels-1.5.1%2B1.20.3.jar"
+hash-format = "sha512"
+hash = "2f3b9cb9cc882265ae7f5bd109e908086206df1a11f41949a6e3b6d88cddef4e560c0f986e0fd3dd1236bb4d0d41777c11b75f27038116bdcb91977d29b71b8c"
 
 [update]
-[update.curseforge]
-file-id = 4932714
-project-id = 406691
+[update.modrinth]
+mod-id = "H6g6MTOB"
+version = "7xaicc4Q"

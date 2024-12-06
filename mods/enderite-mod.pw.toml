@@ -1,0 +1,13 @@
+name = "Enderite Mod"
+filename = "enderitemod-1.5.1-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6lvRWqbA/versions/nY9n0Vnn/enderitemod-1.5.1-1.20.1.jar"
+hash-format = "sha512"
+hash = "5e0304fc3b10356c7ef7c3749d6417c38ccb0244ad62dc2922564bfe42f70c5d3f9f793c17e9f01396a73c45a559fe4bd5bec7c5b078c17a44eb39569ab3a938"
+
+[update]
+[update.modrinth]
+mod-id = "6lvRWqbA"
+version = "nY9n0Vnn"

@@ -3,11 +3,11 @@ filename = "compressed-blocks-1.13.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ab781472d5e8031baaad4434e47f3acd0934337b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/LIv30E74/versions/h643zqNo/compressed-blocks-1.13.jar"
+hash-format = "sha512"
+hash = "d2ad7839cecae361e63af49680f6771c66233b28c8262d96ec80e6ce0752208f0cae5395da09e2a19c0cfb1d90131968490554fe240154fef3bc0764d278c687"
 
 [update]
-[update.curseforge]
-file-id = 5111072
-project-id = 623782
+[update.modrinth]
+mod-id = "LIv30E74"
+version = "h643zqNo"
