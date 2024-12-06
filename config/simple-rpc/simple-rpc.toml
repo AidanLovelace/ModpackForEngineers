@@ -1,0 +1,396 @@
+
+#General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
+[general]
+	#The Application ID of the Discord App to use
+	applicationID = 1093257197762396312
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = true
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Getting Ready..."
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["pack-logo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "%mods% mods"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = [""]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+
+	#The buttons to display on Discord
+	[[init.buttons]]
+		label = "Discord"
+		url = "https://discord.ampznetwork.com"
+
+	[[init.buttons]]
+		label = "Download"
+		url = "https://modrinth.com/modpack/atfb"
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Browing Title Screen"
+	#The seconds line of text under the app name
+	state = "Minecraft %mcver%"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["pack-logo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Version: 5.0"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = [""]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+
+	#The buttons to display on Discord
+	[[main_menu.buttons]]
+		label = "Discord"
+		url = "https://discord.ampznetwork.com"
+
+	[[main_menu.buttons]]
+		label = "Download"
+		url = "https://modrinth.com/modpack/atfb"
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Browing Multiplayer Screen"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["pack-logo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "%mods% mods"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = [""]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Minecraft %mcver% | Ver. 5.0"
+
+	#The buttons to display on Discord
+	[[server_list.buttons]]
+		label = "Discord"
+		url = "https://discord.ampznetwork.com"
+
+	[[server_list.buttons]]
+		label = "Download"
+		url = "https://modrinth.com/modpack/atfb"
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a Realm"
+	#The second line of text under the app name
+	state = "Browsing Realms"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["realm"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["pack-logo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = ""
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["pack-logo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["ampz_network"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Minecraft %mcver% | Ver. 5.0"
+
+	#The buttons to display on Discord
+	[[join_game.buttons]]
+		label = "Discord"
+		url = "https://discord.ampznetwork.com"
+
+	[[join_game.buttons]]
+		label = "Download"
+		url = "https://modrinth.com/modpack/atfb"
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%mods% Mods"
+	#The second line of text under the app name
+	state = "%world%"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["pack-logo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Exploring %biome%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["ampz_network"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Minecraft %mcver% | Ver. 5.0"
+
+	#The buttons to display on Discord
+	[[single_player.buttons]]
+		label = "Discord"
+		url = "https://discord.ampznetwork.com"
+
+	[[single_player.buttons]]
+		label = "Download"
+		url = "https://modrinth.com/modpack/atfb"
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Connected to %servername%"
+	#The second line of text under the app name
+	state = "%players%/%maxplayers% Players Online"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["%servericon%"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Dimension %world%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["ampz_network"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Minecraft %mcver% | Ver. 5.0"
+
+	#The buttons to display on Discord
+	[[multi_player.buttons]]
+		label = "Discord"
+		url = "https://discord.ampznetwork.com"
+
+	[[multi_player.buttons]]
+		label = "Download"
+		url = "https://modrinth.com/modpack/atfb"
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %realmname%"
+	#The second line of text under the app name
+	state = "Playing on a Realm"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord
+	buttons = []
+
+#Fallback event for disabled events
+[generic]
+	#The first line of text under the app name
+	description = "%mods% Mods"
+	#The second line of text under the app name
+	state = "%world%"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["pack-logo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Exploring %biome%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["ampz_network"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Minecraft %mcver% | Ver. 5.0"
+
+	#The buttons to display on Discord
+	[[generic.buttons]]
+		label = "Discord"
+		url = "https://discord.ampznetwork.com"
+
+	[[generic.buttons]]
+		label = "Download"
+		url = "https://modrinth.com/modpack/atfb"
+
+#Custom Config Variables that you can use
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = true
+	#Your custom variables to add
+	variables = []
+
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = true
+
+	#The Dimensions to override
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["overworld"]
+		largeImageText = "Exploring %biome%"
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		name = "ad_astra:earth_orbit"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["earth_orbit"]
+		largeImageText = ""
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		name = "ad_astra:moon"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["moon"]
+		largeImageText = "Exploring %biome%"
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		name = "ad_astra:moon_orbit"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["moon_orbit"]
+		largeImageText = ""
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["the_nether"]
+		largeImageText = "Exploring %biome%"
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "end_island"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["end_island"]
+		largeImageText = "Exploring %biome%"
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["the_end"]
+		largeImageText = "Exploring %biome%"
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "ad_astra:mars"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["mars"]
+		largeImageText = "Exploring %biome%"
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		name = "ad_astra:mars_orbit"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["mars_orbit"]
+		largeImageText = ""
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		name = "ad_astra:mercury"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["mercury"]
+		largeImageText = "Exploring %biome%"
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		name = "ad_astra:mercury_orbit"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["mercury_orbit"]
+		largeImageText = ""
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		name = "ad_astra:venus"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["venus"]
+		largeImageText = "Exploring %biome%"
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		name = "ad_astra:venus_orbit"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["venus_orbit"]
+		largeImageText = ""
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		name = "ad_astra:glacio"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["glacio"]
+		largeImageText = "Exploring %biome%"
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		name = "ad_astra:glacio_orbit"
+		description = "%mods% Mods"
+		state = "%world%"
+		largeImageKey = ["glacio_orbit"]
+		largeImageText = ""
+		smallImageKey = ["pack-logo"]
+		smallImageText = "Minecraft %mcver% | Ver. 5.0"
+		buttons = []

@@ -1,0 +1,10 @@
+{
+  "badgeVisible": false,
+  "builtinServers": [
+    {
+      "name": "Official Server",
+      "address": "atfb.ampznetwork.com",
+      "forced": true
+    }
+  ]
+}

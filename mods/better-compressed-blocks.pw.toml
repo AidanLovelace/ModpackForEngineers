@@ -1,0 +1,13 @@
+name = "Better Compressed Blocks"
+filename = "compressed-blocks-1.13.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ab781472d5e8031baaad4434e47f3acd0934337b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5111072
+project-id = 623782

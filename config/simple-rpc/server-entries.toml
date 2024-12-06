@@ -1,0 +1,15 @@
+#Enable/Disable Server Entries overrides
+enabled = true
+#Internal Version Number. NO TOUCHY!
+version = 2
+
+#Server override entries
+[[entry]]
+	ip = "atfb.ampznetwork.com"
+	description = "Connected to %servername%"
+	state = "%players%/%maxplayers% Players Online"
+	largeImageKey = ["overworld_official_server"]
+	largeImageText = "Dimension: %world%"
+	smallImageKey = ["%servericon%"]
+	smallImageText = "✔️ Official Server"
+

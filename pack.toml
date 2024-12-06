@@ -1,0 +1,13 @@
+name = "StarterName"
+author = "MrKoookaburra"
+version = "1.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8f9babca21d4bef46d70de4d6922ecef41427893d1a3e7f828fc299b3349a36b"
+
+[versions]
+fabric = "0.16.9"
+minecraft = "1.20.1"
