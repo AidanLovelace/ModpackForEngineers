@@ -3,3 +3,7 @@
 
 # Exclude exported Modrinth modpacks
 *.mrpack
+import-mods.sh
+imports-curse.txt
+imports-mr.txt
+.DS_Store

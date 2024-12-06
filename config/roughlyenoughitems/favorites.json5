@@ -1,11 +1,5 @@
 {
-	"favorites": [
-		"{data:{Count:1b,id:\"terrestria:stripped_hemlock_wood\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Count:1b,id:\"minecraft:chest\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Count:1b,id:\"minecraft:stripped_jungle_wood\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Count:1b,id:\"terrestria:stripped_cypress_wood\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Count:1b,id:\"minecraft:stripped_spruce_log\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
-	],
+	"favorites": [],
 	"hiddenFavorites": [],
 	"displays": []
 }

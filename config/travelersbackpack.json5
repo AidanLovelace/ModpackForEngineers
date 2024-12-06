@@ -148,7 +148,7 @@
 	},
 	"backpackAbilities": {
 		"enableBackpackAbilities": true,
-		"forceAbilityEnabled": false,
+		"forceAbilityEnabled": true,
 		// List of backpacks that are allowed to have an ability. DO NOT ADD anything to this list, because the game will crash, remove entries if backpack should not have ability
 		"allowedAbilities": [
 			"travelersbackpack:netherite",
@@ -182,7 +182,7 @@
 	},
 	"slownessDebuff": {
 		// Player gets slowness effect, if carries too many backpacks in inventory
-		"tooManyBackpacksSlowness": true,
+		"tooManyBackpacksSlowness": false,
 		// Maximum number of backpacks, which can be carried in inventory, without slowness effect
 		"maxNumberOfBackpacks": 3,
 		"slownessPerExcessedBackpack": 1

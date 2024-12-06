@@ -11,7 +11,7 @@
 	scrollKeyCode: 342,
 	horizontalScrollKeyCode: 341,
 	smoothScrolling: true,
-	scrollDirection: "REVERSE",
+	scrollDirection: "NATURAL",
 	verticalScrollSensitivity: 10,
 	horizontalScrollSensitivity: 10,
 	tooltipTransparency: 1.0,
