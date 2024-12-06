@@ -1293,7 +1293,7 @@ metafile = true
 
 [[files]]
 file = "mods/industrial-revolution.pw.toml"
-hash = "7b2a6ba47ec55e20106418e87386a029190003aadf5e1815c4df43cc2c60946d"
+hash = "adacdb4be2a9d80bc4854479961298015c595f65af74115198cb884c1fb4cddb"
 metafile = true
 
 [[files]]
