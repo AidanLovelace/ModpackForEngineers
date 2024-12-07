@@ -82,7 +82,7 @@ hash = "4a3e5c2643b3e40f9a5edd3d540f788818dfdf382c19340393a47efefd52ecde"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "5b2dd9f0ce6bd07be54210c23ce4368fd5b1710b24e2f8b68d15f9e32b4be0f3"
+hash = "eef0024905fd582cdaf023c9028342d22b10f52796c9253e36f880df96aa4a5d"
 
 [[files]]
 file = "config/capes.json5"
@@ -1434,11 +1434,6 @@ metafile = true
 [[files]]
 file = "mods/noisium.pw.toml"
 hash = "f4b9d7acc345b8df6dd13e19b36658cbca476abdee703ee6f38c66d33e8fa763"
-metafile = true
-
-[[files]]
-file = "mods/optigui.pw.toml"
-hash = "91157ca968c3964386434db92a70625a33356d325e5ea584ba5dba43920b12d4"
 metafile = true
 
 [[files]]
